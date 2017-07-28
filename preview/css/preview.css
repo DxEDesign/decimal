@@ -1,0 +1,52 @@
+/**
+ *
+ * [Template Name: Decimal - One Page Creative Template]
+ * Version: 1.0.0
+ * Author: DxE-Design
+ * Website: http://dxe-design.com
+ *
+ * For Preview Mode Use Only
+ *
+ */
+
+.header {
+    height: 40%;
+}
+
+.header__content-preview {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.header__button-2, .header__button-2:active, .header__button-2:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.img--border {
+    box-shadow: 3px 3px 10px #888888;
+}
+
+.footer {
+    text-align: center;
+    font-size: 9px;
+}
+
+@media (min-width: 992px) {
+    .header__heading-1 {
+        font-size: 2.5em;
+    }
+
+    .footer {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header__heading-1 {
+        font-size: 3em;
+    }
+}
