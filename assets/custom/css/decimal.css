@@ -193,6 +193,12 @@ body {
     float: none;
 }
 
+.github-ribbon {
+    position: relative;
+    display: block;
+    z-index: 1031;
+}
+
 
 
 
@@ -1981,7 +1987,7 @@ body {
     width: 100%;
     height: 100%;
     background: #fff;
-    z-index: 1031; /* Higher than bootstrap nav */
+    z-index: 1032; /* Higher than bootstrap nav */
 }
 
 .perloader__container {
